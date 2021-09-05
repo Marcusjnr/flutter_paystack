@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_paystack/src/common/hex_color.dart';
 
 class WhiteButton extends _BaseButton {
   final bool flat;
@@ -22,7 +23,7 @@ class WhiteButton extends _BaseButton {
               fontSize: 14.0,
               color: Colors.black87.withOpacity(0.8),
               fontWeight: bold ? FontWeight.bold : FontWeight.normal),
-          color: Colors.white,
+          color: HexColor('3CB76D'),
           borderSide: flat
               ? BorderSide.none
               : const BorderSide(color: Colors.grey, width: 0.5),

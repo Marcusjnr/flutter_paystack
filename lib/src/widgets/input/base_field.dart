@@ -30,6 +30,9 @@ class BaseTextField extends StatelessWidget {
       inputFormatters: inputFormatters,
       onSaved: onSaved,
       validator: validator,
+      style: TextStyle(
+        color: Colors.black
+      ),
       maxLines: 1,
       initialValue: initialValue,
       keyboardType: TextInputType.number,
