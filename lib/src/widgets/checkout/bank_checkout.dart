@@ -165,7 +165,12 @@ class _BankCheckoutState extends BaseCheckoutMethodState<BankCheckout> {
                 items: banks.map((Bank value) {
                   return new DropdownMenuItem<Bank>(
                     value: value,
-                    child: new Text(value.name!),
+                    child: new Text(
+                        value.name!,
+                      style: TextStyle(
+                        color: Colors.black
+                      ),
+                    ),
                   );
                 }).toList(),
               ),

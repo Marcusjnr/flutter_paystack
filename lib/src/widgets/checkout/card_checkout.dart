@@ -54,7 +54,11 @@ class _CardCheckoutState extends BaseCheckoutMethodState<CardCheckout> {
           new Text(
             Strings.cardInputInstruction,
             key: Key("InstructionKey"),
-            style: const TextStyle(fontWeight: FontWeight.w500),
+            style: const TextStyle(
+                fontWeight: FontWeight.w500,
+              color: Colors.black,
+              fontSize: 14
+            ),
           ),
           new SizedBox(
             height: 20.0,
